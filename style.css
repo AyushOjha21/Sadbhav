@@ -183,7 +183,7 @@ header .menu a{
 }
 .thumbnail{
     position: absolute;
-    bottom: 50px;
+    bottom: 0px;
     z-index: 11;
     display: flex;
     gap: 10px;
@@ -240,7 +240,7 @@ header .menu a{
         justify-content: start;
     }
     .slider .list .item .content h2{
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .slider .list{
@@ -248,11 +248,15 @@ header .menu a{
     }
 
     .arrows{
-        top: 12%;
+        top: 15%;
     }
 
     header{
         font-size: x-small;
+    }
+
+    header .menu{
+        width: 50%;
     }
 
     .logo{
